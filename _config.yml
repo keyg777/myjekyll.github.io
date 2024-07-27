@@ -131,16 +131,16 @@ err-404-img: "/img/labtocat.png"
 
 # Sections shown in the index page
 pages_list:
-  "关于": "about"
-  "博客": "latest-post"
-  "时间轴": "timeline"
-  "联系": "contact"
+  "关于🎈": "about"
+  "博客👀": "latest-post"
+  "时间轴🕐": "timeline"
+  "联系✨": "contact"
 # Exclusion list from the generated _site
 exclude:
   - LICENSE
   - README.md
   - CONTRIBUTING
-  - CONTRIBUTORS
+  - CONTRIBUTORSshizhon
   - scripts
   - Dockerfile
   - docker-compose.yml
