@@ -8,7 +8,25 @@
           <h1 class="brand-heading">&nbsp;</h1>
           <span class="intro-text">{{ content }}</span>
           <h5>&nbsp;</h5>
-          <a href="#{{ site.pages_list['关于'] }}" class="page-scroll">
+           <!-- 头像效果-start -->
+        <div class="ih-item circle effect right_to_left">            
+          <a href="#{{ site.pages_list['关于'] }}" class="blog-button">
+              <div class="img"><img  src="{{ site.me-img }}" alt="img"></div>
+              <div class="info">
+                  <div class="info-back">
+                      <h2> 
+                          aaaaaa
+                      </h2>
+                      <p>
+                         bbbbbbb
+                      </p>
+                  </div>
+              </div>
+          </a>
+      </div>
+      <!-- 头像效果-end -->
+
+          <!-- <a href="#{{ site.pages_list['关于'] }}" class="page-scroll">
             {% if site.me-img contains "https://" %}
               <img class="img-me" src="{{ site.me-img }}" alt="" />
             {% else %}
@@ -18,7 +36,7 @@
                 alt=""
               />
             {% endif %}
-          </a>
+          </a> -->
         </div>
       </div>
     </div>
