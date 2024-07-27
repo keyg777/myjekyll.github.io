@@ -114,13 +114,13 @@ author_blurb_image: "/img/author.png"
 ##################
 social:
   - icon: "github"
-    url: "https://github.com/le4ker/personal-jekyll-theme"
+    url: "https://github.com/keyg777"
   - icon: "qq"
     url: "https://www.qq.com"
   - icon: "x-twitter"
     url: "https://twitter.com/"
   - icon: "rss"
-    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+    url: "https://github.com/keyg777"
 ############
 # 404 page #
 ############
